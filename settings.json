@@ -1,0 +1,35 @@
+{
+    // layout
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "React Theme",
+    "workbench.editor.enablePreview": false,
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.titleBarStyle": "native",
+    
+    // typography
+    "editor.fontSize": 14, 
+    "editor.fontFamily": "Geist Mono",
+    "editor.lineHeight": 1.4,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontSize": 15,
+    "workbench.statusBar.visible": false,
+    "editor.codeLensFontFamily": "Geist Mono",
+    "editor.inlayHints.fontFamily": "Geist Mono",
+    "editor.inlineSuggest.fontFamily": "Geist Mono",
+    "debug.console.fontFamily": "Geist Mono",
+    "scm.inputFontFamily": "Geist Mono",
+    "terminal.integrated.fontFamily": "Geist Mono",
+    "notebook.markup.fontFamily": "Geist Mono",
+    "notebook.output.fontFamily": "Geist Mono",
+    "chat.editor.fontFamily": "Geist Mono",
+
+    // custom styles
+    "workbench.colorCustomizations": {
+        "editorGroupHeader.border": "#00000000",
+
+    }
+    
+}
