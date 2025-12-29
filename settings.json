@@ -1,4 +1,10 @@
 {
+    // caret
+    "editor.cursorStyle": "block", // or "block" for full block caret
+    "editor.cursorWidth": 8, // makes it thick
+    "editor.cursorBlinking": "blink", // no blinking (optional)
+    "editor.cursorSmoothCaretAnimation": "on", // smooth animation
+
     // layout
     "workbench.sideBar.location": "right",
     "editor.minimap.enabled": false,
@@ -7,15 +13,17 @@
     "editor.stickyScroll.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.editor.editorActionsLocation": "hidden",
-    "window.titleBarStyle": "native",
-    
+    "window.titleBarStyle": "custom",
+    "editor.scrollbar.verticalScrollbarSize": 1,
+    "editor.scrollbar.horizontalScrollbarSize": 1,
+    "workbench.editor.showTabs": "multiple",
+
     // typography
-    "editor.fontSize": 14, 
+    "editor.fontSize": 14,
     "editor.fontFamily": "Geist Mono",
     "editor.lineHeight": 1.4,
     "terminal.integrated.lineHeight": 1.2,
     "terminal.integrated.fontSize": 15,
-    "workbench.statusBar.visible": false,
     "editor.codeLensFontFamily": "Geist Mono",
     "editor.inlayHints.fontFamily": "Geist Mono",
     "editor.inlineSuggest.fontFamily": "Geist Mono",
@@ -29,7 +37,45 @@
     // custom styles
     "workbench.colorCustomizations": {
         "editorGroupHeader.border": "#00000000",
+        "editorCursor.foreground": "#FFD700"
+    },
 
-    }
-    
+    // formatter
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "prettier.tabWidth": 4,
+
+    // React snippets
+    "reactSnippets.settings.importReactOnTop": false,
+
+    "git.decorations.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.confirmSync": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDelete": false,
+    "svelte.enable-ts-plugin": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.statusBar.visible": false,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+    "julia.symbolCacheDownload": true,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": true,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false
+
+    // terminal
+    // "terminal.integrated.defaultProfile.windows": "Command Prompt"
 }
