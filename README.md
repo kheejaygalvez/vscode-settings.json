@@ -1,6 +1,6 @@
 # VS Code User Settings
 
-Minimal and practical `user.settings.json` for Visual Studio Code.
+Personal Customization `settings.json` for Visual Studio Code.
 
 Focused on a clean UI, readable code, and small quality-of-life improvements.
 Used as my personal baseline setup across machines.
